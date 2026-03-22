@@ -1,0 +1,8 @@
+services:
+  mysql:
+    image: 'mysql:8.0'
+    environment:
+      - 'MYSQL_DATABASE=baozi_store'
+      - 'MYSQL_ROOT_PASSWORD=123456789'
+    ports:
+      - '3307:3306'
